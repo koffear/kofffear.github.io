@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<head>
+    <style>input, textarea, button {
+        font-size: 1.4rem;
+        padding: 10px;
+        border: none;
+        background-color: lightblue;
+        width: 100%;
+        margin-bottom: 15px;
+        box-sizing: border-box;}  
+    </style>      
+</head>
 <body>
-    <div>
-        <p></p>
-    </div>
+        <h1>Contact Us</h1>       
+        <form method="post" action="/contact-form-data/">
+        <input name="readername" type="text" placeholder="Michael"  required>
+        <input name="readeremail" type="email" placeholder="Michael@gmail.com" required><br>
+        <input type="number" placeholder="your number" required><br>   
+        <textarea name="message" rows="5" cols="30" placeholder="Message" required></textarea ><br>
+        <button type="submit">Send Message</button><br>
+</form>
 </body>
 </html>
