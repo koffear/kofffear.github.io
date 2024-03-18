@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>create list student with CSS3</title>
+        <style type="text/css">
+        .listdetails {display: none;}
+        .list img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px #aaa;
+        }
+.listname {font-weight: bold;}
+.listcode {font-style: italic;}
+.listname ::after {content:"-";}
+.list{
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+} 
+.list:hover .listdetails {display:block;}
+  </style>
+</head>
+<div>
+<div class="list">
+    <img src="https://images.tuyensinh247.com/picture/2020/1006/duoc-ha-noi.png">
+    <div class="listdetails">
+    <span class="listname">ĐH Duoc Ha Noi</span>
+    <span class="listcode">132462110</span>
+</div>
+<div class="list">
+    <img src="https://static-images.vnncdn.net/files/publish/2022/9/21/danh-sach-dh-y-ha-noi-1-458.jpg"/>
+    <div class="listdetails">
+        <span class="listname">Ha Noi Medical Universcity</span>
+        <span class="listcode">2251010004</span>
+    </div>
+<div class="list">
+    <img src="https://thanhnien.mediacdn.vn/Uploaded/quyhien/2022_07_22/p2-7503.png"/>
+    <head>
+    <div class="listdetails"
+        <span> class="listname">ĐH Chinh Quy</span>
+        <span class="listcode">7720101</span>
+    </div>
+</div>
+</html>
