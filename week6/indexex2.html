@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+        <title>ex02</title>
+</head>
+<body>
+   <input type="text" id="txtx">
+   <input type="text" id="txty">
+   <button onclick="tongxy()">
+        Tổng xy
+    </button>
+</body>
+<script>
+    function tongxy() {
+        var value1 = parseFloat(document.getElementById('txtx').value);
+        var value2 = parseFloat(document.getElementById('txty').value);
+        var tong = value1 + value2;
+        alert(tong);
+    }
+</script>
+</html>
