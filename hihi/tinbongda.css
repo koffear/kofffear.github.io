@@ -1,0 +1,260 @@
+*{
+    margin:0px auto;
+    padding:0px;
+}
+body{
+    font-family:sans-serif;
+    font-size: 14px;
+}
+#wrapper{
+    width: 1000px;
+    height: 85px;
+    position: relative;
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+nav{
+    border-bottom: 2px solid teal;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 10px 0px;
+    margin-left: 30px;
+}
+.homelogo{
+    width: 20px; height:auto; position:absolute; top:-17px; left:-20px
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #004080;
+    /* màu xanh đen */
+}
+nav ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    margin-left: 0px;
+    width: 200px;
+    background-color: #f8f8f8;
+}
+nav ul li ul li{
+    display: block;
+    padding: 8px 5px;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+nav ul li ul li:hover{
+    background-color: #e8e8e8;
+    /* màu ghi sáng */
+    border-bottom: 1px solid teal;
+}
+nav ul button{
+    color: #004080;
+    width: 80px;
+    height: 22px;
+    margin: 1px;
+    background-color: #f8f8f8;
+}
+nav ul :placeholder-shown{
+    width: 160px;
+    height: 20px;
+    margin: 1px;
+}
+.main{
+    display: block;
+    height: 450px;
+    max-width: 1000px;
+    margin-top: 15px;
+    border-bottom: 2px solid #d3d3d3;
+}
+.main .left{
+    float: left;
+    width: 180px;
+}
+.main .left .box-l{
+    width: 100%;
+}
+.box-l img{
+    width: 110px;
+    height: 60px;
+    border: 1px solid #0080FF;
+    border-radius: 5px;
+}
+.box-l h3 a{
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+    font-weight: normal;
+}
+.box-l h3 a:hover{
+    text-decoration: underline;
+    color: #0080FF;
+}
+.box-2 img{
+    width: 110px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #0080FF;
+}
+.box-2 h3 a{
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+    font-weight: normal;
+}
+.box-2 h3 a:hover{
+    text-decoration: underline;
+    color: #0080FF;
+}
+.main .mainContent{
+    width: 480px;
+    float: left;
+    margin: 0px 15px;
+}
+.main .mainContent img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #0080FF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.main .mainContent h2 a{
+    font-size: 18px;
+    color: #252525;
+    text-decoration: none;
+}
+.main .mainContent h2 a:hover{
+    text-decoration: underline;
+    color: #0080FF;
+}
+.main .mainContent p{
+    color: #646464;
+    text-align: justify;
+    margin-top: 15px;
+}
+.main .right{
+    float: right;
+    width: 310px;
+}
+table{
+    width: 100%;
+}
+table tr td{
+    padding: 0px 0px 10px;
+}
+.right img{
+    width: 100px;
+    border: 1px solid #0080FF;
+    border-radius: 5px;
+    float: right;
+}
+.right h3{
+    width: 180px;
+    float: left;
+}
+.right h3 a{
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+    font-weight: normal;
+}
+.right h3 a:hover{
+    text-decoration: underline;
+    color: #0080FF;
+}
+.right .box-r{
+    width: 300px;
+    margin-bottom: 20px;
+    display: block;
+}
+.right .box-r img{
+    width: 110px;
+    height: 60px;
+    border: 1px solid #0080FF;
+    border-radius: 5px;
+    float: right;
+}
+.right .box-r h3{
+    width: 180px;
+    display: inline-block;
+}
+.right .box-r h3 a{
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+}
+.right .box-r h3 a:hover{
+    text-decoration: underline;
+    color: #0080FF;
+}
+*/
+footer{
+    width: 100%;
+    height: 100px;
+}
+div h2 {
+ text-align:left;
+ font-size: 30px;
+ font-weight: bolder;
+}
+div h2 :hover {
+color: red;
+}
+div p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+   
+}
+div img #anh1 {
+    background-image: cover;
+    size: 50px;
+    float:left
+}
+div h3 {
+    float:left;
+    font-size: 20px
+}
+#right_sidebar{
+    float:right;
+    width: 300px;
+    height: 3000px;
+    
+}
+div a li {
+    text-decoration-line: none;
+}
+
+article .new_list .news_item {
+    width: 28% ;
+    padding: 12px;
+    float: left ;
+    border: 1px solid #ccc;
+    margin-right:  4%;
+}
+
+nav ul div{
+    float:right;
+    background-color: white;
+    height: 30px;   
+}
+.btn button{
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.05;
+}
